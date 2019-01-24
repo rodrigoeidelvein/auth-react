@@ -11,7 +11,7 @@ const cors = require("cors");
 // DB Setup
 mongoose
   .connect(
-    "mongodb://localhost:auth/auth",
+    "mongodb://admin:fazenda123@ds033103.mlab.com:33103/teste_crud",
     { useNewUrlParser: true }
   )
   .catch(erro => {
